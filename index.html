@@ -2,7 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <title>تيك توك الذهبي - TikTok Gold</title>
+  <title>TikTok_Gold_v4.30</title>
   
   <!-- Favicon -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -362,7 +362,7 @@
       color: var(--text-gray);
     }
     
-    /* زر التحميل */
+    /* زر التحميل - تم التعديل هنا */
     .download-box {
       width: 100%;
       max-width: 380px;
@@ -372,22 +372,23 @@
     .file-box {
       display: flex;
       align-items: center;
-      background: linear-gradient(135deg, var(--dark-bg), #000);
-      color: white;
-      padding: 16px;
+      background: linear-gradient(135deg, #FFD700, #D4AF37);
+      color: #000;
+      padding: 18px;
       border-radius: 14px;
-      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.6);
+      box-shadow: 0 5px 15px rgba(212, 175, 55, 0.5);
       text-decoration: none;
       transition: var(--transition);
       position: relative;
       overflow: hidden;
-      border: 2px solid var(--gold-primary);
+      border: 2px solid #FFD700;
+      font-weight: 700;
     }
     
     .file-box:hover {
       transform: translateY(-4px);
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
-      background: linear-gradient(135deg, #222, #111);
+      box-shadow: 0 8px 20px rgba(212, 175, 55, 0.7);
+      background: linear-gradient(135deg, #FFD700, #FFC400);
     }
     
     .file-box::after {
@@ -397,7 +398,7 @@
       left: -50%;
       width: 200%;
       height: 200%;
-      background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+      background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 70%);
       transform: rotate(30deg);
       pointer-events: none;
     }
@@ -407,7 +408,7 @@
       height: 55px;
       margin-right: 12px;
       border-radius: 10px;
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.2);
       padding: 7px;
     }
     
@@ -419,22 +420,23 @@
     }
     
     .file-box .title {
-      font-weight: 700;
-      font-size: 18px;
+      font-weight: 800;
+      font-size: 19px;
       margin-bottom: 3px;
-      color: var(--gold-light);
+      color: #000;
     }
     
     .file-box .size {
-      font-size: 13px;
-      opacity: 0.8;
-      color: #aaa;
+      font-size: 14px;
+      opacity: 0.9;
+      color: #333;
+      font-weight: 600;
     }
     
     .file-box .download-icon {
-      font-size: 22px;
+      font-size: 24px;
       margin-right: 8px;
-      color: var(--gold-light);
+      color: #000;
     }
     
     /* العد التنازلي */
